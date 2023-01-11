@@ -5,7 +5,6 @@ import SearchForm from './SearchForm'
 import Buttons from './Buttons'
 
 const App = () => {
-  const value = useGlobalContext()
   return (
     <>
       <SearchForm />

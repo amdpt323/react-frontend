@@ -38,3 +38,50 @@ code {
 .header-btn {
   max-width: 30vh;
 }
+
+.data-form {
+  display: flex;
+  justify-content: space-between;
+}
+
+.p-10 {
+  padding: 10px 40px;
+}
+
+.p-2 {
+  padding: 10px 40px 2px 40px;
+  font-weight: bold;
+}
+.p-3 {
+  padding: 1px 40px 10px 40px;
+}
+.p-4 {
+  padding: 10px 40px 30px 40px;
+  font-weight: bold;
+}
+
+.asc-dsc {
+  width: 60%;
+  padding-left: 20%;
+  padding-top:10px;
+}
+
+.asc-dsc button {
+  height:6vh;
+  width:12vh;
+  margin-left:20px;
+}
+
+.asc-dsc input {
+  height:5vh;
+  border:2px solid #f7f7f7;
+  width:30vh;
+  color:black;
+  font-size:20px;
+}
+
+.asc-dsc input::placeholder {
+  color:grey;
+  font-size:20px;
+  padding-left:7px;
+}
